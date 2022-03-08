@@ -1,0 +1,6 @@
+zoomUrls/build
+zoomUrls/dist
+zoomUrls/zoomUrls.spec
+zoomUrls/hooks
+zoomUrls/__pycache__
+zoomUrls/spiders/__pycache__
