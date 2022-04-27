@@ -122,6 +122,7 @@ class ZoomSpider(scrapy.Spider):
         # format the text into JSON form
         jsonString = re.sub(r':\s?([a-zA-Z0-9]+)',  r':"\1"', scriptText)              # wrap values
         jsonString = re.sub(r'([a-zA-Z0-9]+):([\{\s\"\'\[])', r'"\1":\2', jsonString)  # wrap keys
+        jsonString = jsonString.replace(';', '')
 
         jsonData = json.loads(jsonString)
 

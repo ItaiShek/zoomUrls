@@ -35,20 +35,20 @@ optional arguments:
 #### Method 1: Using curl 
 
 ```bash
-sudo curl -L https://github.com/ItaiShek/zoomUrls/releases/download/v1.0.0/zoomUrls -o /usr/local/bin/zoomUrls
+sudo curl -L https://github.com/ItaiShek/zoomUrls/releases/download/v1.0.1/zoomUrls -o /usr/local/bin/zoomUrls
 sudo chmod a+rx /usr/local/bin/zoomUrls
 ```
 
 #### Method 2: Using wget
 
 ```bash
-sudo wget https://github.com/ItaiShek/zoomUrls/releases/download/v1.0.0/zoomUrls -O /usr/local/bin/zoomUrls
+sudo wget https://github.com/ItaiShek/zoomUrls/releases/download/v1.0.1/zoomUrls -O /usr/local/bin/zoomUrls
 sudo chmod a+rx /usr/local/bin/zoomUrls
 ```
 
 #### Method 3: Direct download
 
-Download it from [here](https://github.com/ItaiShek/zoomUrls/releases/download/v1.0.0/zoomUrls).
+Download it from [here](https://github.com/ItaiShek/zoomUrls/releases/download/v1.0.1/zoomUrls).
 
 #### Method 4: Clone repository
 
@@ -68,7 +68,7 @@ python -m pip install -r requirements.txt
 
 #### Direct download
 
-Download it from [here](https://github.com/ItaiShek/zoomUrls/releases/download/v1.0.0/zoomUrls.exe).
+Download it from [here](https://github.com/ItaiShek/zoomUrls/releases/download/v1.0.1/zoomUrls.exe).
 
 Add the file to any folder except "C:\Windows\System32", and add it to [PATH](https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14)).
 
